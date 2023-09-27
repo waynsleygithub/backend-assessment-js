@@ -1,3 +1,4 @@
-name = "ma-project"
+name = "william-aynsley-project"
 main = "src/index.ts"
 compatibility_date = "2023-04-18"
+node_compat = true

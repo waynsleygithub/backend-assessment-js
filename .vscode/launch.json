@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "Attach to Debugger",
+        "port": 51985,
+        "address": "127.0.0.1",
+        "localRoot": "${workspaceFolder}",
+        "remoteRoot": "/",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "sourceMaps": true,
+        "sourceMapPathOverrides": {
+            "/private/var/folders/c6/zp9njwvn0m77lr_0h6_qf2yc0000gn/T/*": "${workspaceFolder}/*"
+        },
+        "trace": true
+      }
+    ]
+}
